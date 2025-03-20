@@ -131,9 +131,11 @@ body {
 
 
 .home-page .page1 {
+    min-height: calc(100vh - 70px);
     max-width: 92%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
     padding: 8rem 2rem;
     position: relative;
     z-index: 10;
