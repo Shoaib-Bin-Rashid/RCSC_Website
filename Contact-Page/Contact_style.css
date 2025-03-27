@@ -60,8 +60,12 @@
     font-size: 1.3rem;
 }
 
+.social_connect .social_icons {
+    display: flex;
+    gap: 2rem;        
+}
+
 .social_connect .social_icons a{
-    margin-top: 0.5rem;
     font-size: 28px;
     color: #06b6d4;
     cursor: pointer;
@@ -371,12 +375,7 @@ transition: 0.3s;
         padding: 1.5rem 0 0 0;
     }
     
-    .social_connect .social_icons {
-        justify-content: center;
-        gap: 2rem;
-        
-        
-    }
+    
 
 }
 
