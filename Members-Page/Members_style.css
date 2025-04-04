@@ -1,0 +1,276 @@
+.members-page{
+    color: #ffffff;
+    background-color: #1f293780;
+}
+
+
+.members-page h1.title {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 90vw;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.members-page .details {
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+max-width: 100%;
+text-align: center;
+font-size: 1.25rem;
+opacity: 90%;
+font-weight: 400;
+
+}
+
+
+.members-page .page{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4rem 2rem;
+    max-width: 68rem;
+    margin: auto;
+    position: relative;
+}
+
+
+.members-page  h2.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    max-width: 90vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.members-page  .page2 p.details  {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+
+.members-page .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin: 3rem auto;
+    max-width: 90vw;
+    
+}
+
+.members-page .advisor-page .profile-grid{
+grid-template-columns: repeat(2, 1fr);
+max-width: 60vw;
+gap: 3rem;
+}
+
+.members-page .advisor-page .profile-img{
+    height: 300px;
+}
+
+.members-page .profile-card {
+    background-color: rgb(31, 41, 55);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #555;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.members-page .profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.members-page .profile-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;  
+}
+
+.members-page .profile-info {
+    padding: 16px;
+}
+
+.members-page .profile-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.members-page .profile-roll,
+.members-page .profile-position,
+.members-page .profile-department {
+    color: #d1d5db;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.members-page .profile-position {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+
+.team-structure,
+.join-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-bottom: 4rem;
+}
+.team-structure .box {
+    background-color: #2d3748;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #4a5568;
+    text-align: left;
+}
+
+.team-structure .sub-section{
+    margin-top: 2rem;
+}
+
+.team-structure .sub-section:first-child{
+    margin-top: 0;
+}
+
+.team-structure h3{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin-bottom: 1.5rem;
+}
+
+
+.team-structure h4{
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin-bottom: .75rem;
+}
+
+.team-structure p, ul {
+    color: #cbd5e0;
+}
+.team-structure ul {
+    padding-left: 20px;
+}
+.team-structure li {
+    margin-bottom: 5px;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.join-btn {
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.375rem;
+    background: linear-gradient(90deg, #00bcd4, #1e40af);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out,background 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+}
+
+.join-btn:hover {
+    background: linear-gradient(90deg, #00acc1, #1e3a8a);
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 10px rgba(0, 198, 255, 0.3);
+    
+}
+
+.join-btn:focus {
+    border: 2px solid black; 
+    outline: 2px solid #00bcd4; 
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .members-page .profile-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .members-page .profile-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;  
+    }    
+    
+
+    .members-page .advisor-page .profile-grid {
+        max-width: 70vw;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .members-page h1.title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .members-page .details {
+        font-size: 1.18rem;
+    }
+
+    .members-page h2.subtitle {
+        font-size: 1.7rem;
+    }
+
+
+    .members-page .profile-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+    }
+
+    .members-page .advisor-page .profile-grid {
+        max-width: 600px;
+        gap: 1.5rem;
+    }
+
+    .members-page .profile-img,
+    .members-page .advisor-page .profile-img {
+        height: 250px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    
+    .members-page .profile-grid,
+    .members-page .advisor-page .profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .members-page .profile-card {
+        max-width: 16rem;
+        margin: auto;
+    }
+
+}
